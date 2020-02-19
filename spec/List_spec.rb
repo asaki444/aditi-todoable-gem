@@ -20,4 +20,6 @@ RSpec.describe TODOABLE::List do
          lists = TODOABLE::List.all
          lists[0].should be list
         end
+
+        #added additional test to get a single list to equal json, patch
   end

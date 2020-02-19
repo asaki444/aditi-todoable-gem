@@ -39,7 +39,7 @@ List methods
 | Update List | ```.update_list(list_id, name)```|
 | Delete List |``` .delete_list(list_id)``` |
 
-Item methods begin with ```TODOABLE::Item```. 
+Item methods begin with ```TODOABLE::Item```.
 
 Item methods
 |Request| Method|
@@ -50,10 +50,9 @@ Item methods
 
 ## Things I wish I could have had more time
 
-I did not get to create a fully working gem. Besides that, I would have added some error handling to send a message to the console depending on the response code.
+I would have added more methods, and tests for each method to expect response code, and a json when applicable.
 
-Also I needed to add a method to check if a code is still valid if 20 minutes have passed before requesting another token, when an api request is called. Or added logic to call the initialize method when the token was invalid after a request to the api.
-
+I did not get the opportunity to wrap all of the endpoints as well.
 
 ## Development
 

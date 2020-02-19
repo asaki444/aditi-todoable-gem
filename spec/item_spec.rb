@@ -17,4 +17,6 @@ RSpec.describe TODOABLE::List do
          items = TODAOBLE::Item.get_all
          items.should_not be nil
         end
+
+        #added a test for mark as finished
   end
